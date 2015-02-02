@@ -1,0 +1,62 @@
+<%= form_for @visitum , html: {class: 'form-horizontal '} do |f| %>
+  <% if @visitum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@visitum.errors.count, "error") %> prohibited this visitum from being saved:</h2>
+
+      <ul>
+      <% @visitum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+ 
+
+  <div class="form-group">
+
+    <label for="nomecliente" class="col-sm-2 control-label">Nome</label>
+     <div class="col-sm-4">
+    <%= f.text_field :nome, :class => "form-control "%>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="contacto" class="col-sm-2 control-label">Contacto</label>
+    <div class="col-sm-2">
+    <%= f.text_field :tlm, :class=>"form-control" %>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-4">
+    <%= f.text_field :email, :class=>"form-control"%>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="assunto" class="col-sm-2 control-label">Assunto</label>
+    <div class="col-sm-4">
+    <%= f.text_field :assunto, :class=>"form-control"%>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="descricao" class="col-sm-2 control-label">Descrição</label>
+    <div class="col-sm-4">
+    <%= f.text_area :descricao, :class=>"form-control", :rows=>"5" %>
+    </div>
+  </div>
+
+  <div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <%= f.submit :Guardar, class:"btn btn-primary" %>
+
+
+    </div>
+  </div>
+
+
+ 
+<% end %>

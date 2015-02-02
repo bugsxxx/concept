@@ -1,0 +1,47 @@
+<h1>Visitas</h1>
+
+<div >
+<table class="table" style="color:black;">
+  <thead>
+    <tr class="danger">
+      <th>Nome:</th>
+      <th>Tlm:</th>
+      <th>Email:</th>
+      <th>Assunto:</th>
+     
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @visita.each do |visitum| %>
+      <tr class="warning">
+        <td><%= visitum.nome %></td>
+        <td><%= visitum.tlm %></td>
+        <td><%= visitum.email %></td>
+        <td><%= visitum.assunto %></td>
+       
+        <td><%= link_to '<i class="fa  fa-search"></i>'.html_safe, visitum %>
+        <%= link_to '<i class="fa fa-pencil"></i>'.html_safe, edit_visitum_path(visitum) %>
+        <%= link_to '<i class="fa fa-trash-o"></i>'.html_safe, visitum, method: :delete, data: { confirm: 'Deseja mesmo eliminar o registo?' } %></td>
+      
+    <% end %>
+  </tbody>
+  <tfoot>
+    </tr>
+      <tr class="info">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  </tfoot>
+</table>
+
+</div>
+<br>
+
+<%= link_to '+ Visita', new_visitum_path %>
+
+

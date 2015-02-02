@@ -1,0 +1,156 @@
+.main{
+	-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: 150px 150px;
+-webkit-transform-origin: 0px 0px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+
+background-origin: padding-box;
+background-size: 150px 150px;
+border-bottom-color: rgb(0, 0, 0);
+border-bottom-width: 0px;
+border-left-color: rgb(0, 0, 0);
+border-left-width: 0px;
+border-right-color: rgb(0, 0, 0);
+border-right-width: 0px;
+border-top-color: rgb(0, 0, 0);
+border-top-width: 0px;
+display: block;
+font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 14px;
+height: 783px;
+left: 0px;
+line-height: 17px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 120px;
+padding-top: 0px;
+position: absolute;
+right: 0px;
+text-align: left;
+transform-origin: 0px 0px;
+width: 1280px;
+word-wrap: break-word;
+z-index: 48;
+	background-image: url("/img/pattern_shapes_2x.jpg");
+	color: white;
+	margin:5%;
+
+
+	padding-top: 70px; 
+}
+
+.mainContact{
+	
+	z-index: 49;
+	width: 424px;
+	min-height: 41px;
+	background-color: transparent;
+	line-height: 46px;
+	color: #FFA104;
+	text-align: left;
+	left: 100px;
+	position: relative;
+}
+
+
+.mainForm {
+
+
+	
+	
+	
+}
+
+.inputtext{
+	color: black;
+}
+
+#u922-4 {
+width: 65px;
+min-height: 14px;
+border-style: none;
+border-color: transparent;
+background-color: transparent;
+line-height: 14px;
+font-size: 12px;
+color: #252525;
+letter-spacing: 1px;
+text-align: center;
+font-family: raleway, sans-serif;
+font-weight: 700;
+position: relative;
+margin-right: -10000px;
+top: 15px;
+left: 20px;
+}
+
+#widgetu969_input, #widgetu969_prompt {
+width: 605px;
+min-height: 54px;
+color: #C4C4C4;
+text-align: right;
+letter-spacing: 2px;
+font-family: raleway, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+padding: 6px;
+}
+
+.popover-title{
+	z-index: 48;
+	
+	background-size: 150px 150px;
+	background-color: #373634;
+	color:#FFA104;
+
+}
+
+.popover-content{
+	color:black;
+	line-height: 20px;
+}
+
+
+
+
+
+.modal-header{
+	text-align: left;
+	background-size: 150px 150px;
+	background-image: url("/img/pattern_shapes_2x.jpg");
+	background-color: #373634;
+	color:#FFA104;
+
+}
+
+.modal-content {
+	color:black;
+	
+	text-align: center;
+}
+
+.modal-footer img{
+	margin-right: 64%;
+	text-align: left;
+}
+
+.modal-footer button{
+	margin-right: 3%;
+	
+}
+
+
+.imgfootermodal {
+	padding-right: 50px;
+}
+
+ 
+

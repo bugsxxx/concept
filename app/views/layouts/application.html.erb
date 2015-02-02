@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Concepts</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:white;" >
+  <div class="container">
+  		<ul class="nav navbar-nav" style="margin-left:11%;">
+  		<li >
+  		<img src="/img/logoConceptsblack.jpg" width="117px;" height="52px">
+  		</li>
+  		</ul>
+
+  		<ul class="nav navbar-nav navbar-right">
+  		<li>
+  		<a id="backlink" href=""><b style="color:black; font-family: raleway, sans-serif" onclick="history.go(-1);">BACK</b></a>
+  		</li>
+  		</ul>
+    
+  </div>
+
+</nav>
+<body class="main">
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>
